@@ -1,15 +1,15 @@
 function increment(arr, value) {
 
 console.log(arr);
-var j;
+var i;
 var obj2 =Object.keys(arr);
 
 var me= arr[0].val;
 
 var arty={};
-for(j=0; j<obj2.length; j++){
+for(i=0; i<obj2.length; i++){
 
-  arr[j].val = arr[j].val + value;
+  arr[i].val = arr[i].val + value;
   console.log(arr);
 
 }
